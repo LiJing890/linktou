@@ -1,19 +1,28 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <fileupload></fileupload>
-  </div>
+    <leftmenu></leftmenu>
+    <pagination></pagination>
+    </div>
 </template>
 
 <script>
-import Fileupload from './components/fileupload'
-
+import Pagination from './components/common/pagination'
+import Leftmenu from './components/common/leftmenu'
           export default {
             name: 'app',
             components: {
-              Fileupload
+              Pagination,Leftmenu
             }
           }
+          
+    
+// import Hello from './components/hello'
+//           export default {
+//             name: 'app',
+//             components: {
+//               Hello
+//             }
+//           }
 </script>
 
 <style>
@@ -23,6 +32,5 @@ import Fileupload from './components/fileupload'
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>

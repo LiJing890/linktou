@@ -29,7 +29,7 @@ export default {
       msg: 'Welcome to Your Vue.js App',
       filename:'',
       newfilename:'default',
-      loadurl:'http://172.19.82.228:9881/fileManage//FileManage/fileUpload'
+      loadurl:'http://172.19.82.228:9881/fileManage//FileManage/fileUploadByFile'
     }
   },
   methods: {
